@@ -1,0 +1,66 @@
+.bar {
+  position: absolute;
+  z-index: 1;
+  right: 700px;
+  bottom: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.pic {
+  position: absolute;
+  z-index: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.sea {
+  position: absolute;
+  z-index: 1;
+  left: 160px;
+  bottom: 65px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.river {
+  position: absolute;
+  z-index: 1;
+  left: 360px;
+  bottom: 65px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.title {
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  user-select: none;
+  pointer-events: none;
+}
+
+img.fish {
+  width: auto;
+  height: auto;
+}
+
+img.title {
+  width: 200px;
+  height: auto;
+}
+
+img.sea{
+  width: 120px;
+  height: auto;
+}
+
+img.river {
+  width: 120px;
+  height: auto;
+}
+
+body {
+  background-color: gray;
+}
