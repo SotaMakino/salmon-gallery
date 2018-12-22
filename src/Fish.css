@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 1;
   right: 700px;
-  bottom: 10px;
+  bottom: 0px;
   width: 300px;
   height: 200px;
 }
@@ -17,8 +17,8 @@
 .sea {
   position: absolute;
   z-index: 1;
-  left: 160px;
-  bottom: 65px;
+  left: 165px;
+  bottom: 60px;
   user-select: none;
   pointer-events: none;
 }
@@ -27,7 +27,7 @@
   position: absolute;
   z-index: 1;
   left: 360px;
-  bottom: 65px;
+  bottom: 60px;
   user-select: none;
   pointer-events: none;
 }
