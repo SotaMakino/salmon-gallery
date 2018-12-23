@@ -40,5 +40,3 @@ yarn-debug.log*
 /build
 /scripts
 /config
-
-/src/assets
