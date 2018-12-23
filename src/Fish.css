@@ -1,66 +1,54 @@
 .bar {
-  position: absolute;
+  position: fixed;
+  bottom: 170px;
+  left: 450px;
+  width: 25%;
+  height: auto;
   z-index: 1;
-  right: 700px;
-  bottom: 0px;
-  width: 300px;
-  height: 200px;
 }
 
-.pic {
+img.fish {
   position: absolute;
+  max-width: 80%;
+  left: 100px;
+  height: auto;
   z-index: 0;
   user-select: none;
   pointer-events: none;
 }
 
-.sea {
-  position: absolute;
-  z-index: 1;
-  left: 165px;
-  bottom: 60px;
-  user-select: none;
-  pointer-events: none;
-}
-
-.river {
-  position: absolute;
-  z-index: 1;
-  left: 360px;
-  bottom: 60px;
-  user-select: none;
-  pointer-events: none;
-}
-
-.title {
-  z-index: 1;
-  position: absolute;
-  left: 0px;
-  top: 10px;
-  user-select: none;
-  pointer-events: none;
-}
-
-img.fish {
-  width: auto;
-  height: auto;
-}
-
 img.title {
-  width: 200px;
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  width: 20%;
   height: auto;
+  z-index: 2;
+  user-select: none;
+  pointer-events: none;
 }
 
 img.sea{
-  width: 120px;
+  position: absolute;
+  width: 12%;
   height: auto;
+  bottom: 110px;
+  left: 300px;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
 }
 
 img.river {
-  width: 120px;
+  position: absolute;
+  width: 12%;
   height: auto;
+  bottom: 110px;
+  left: 800px;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
 }
 
-body {
-  background-color: gray;
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
 }

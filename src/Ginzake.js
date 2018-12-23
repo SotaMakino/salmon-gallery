@@ -4,19 +4,19 @@ import Slider from 'react-rangeslider';
 import './react-rangeslider/lib/index.css';
 import './Fish.css';
 
-import pic1 from './assets/benizake/1.jpg';
-import pic2 from './assets/benizake/2.jpg';
-import pic3 from './assets/benizake/3.jpg';
-import pic4 from './assets/benizake/4.jpg';
-import pic5 from './assets/benizake/5.jpg';
-import pic6 from './assets/benizake/6.jpg';
-import pic7 from './assets/benizake/7.jpg';
+import pic1 from './assets/ginzake/1.jpg';
+import pic2 from './assets/ginzake/2.jpg';
+import pic3 from './assets/ginzake/3.jpg';
+import pic4 from './assets/ginzake/4.jpg';
+import pic5 from './assets/ginzake/5.jpg';
+import pic6 from './assets/ginzake/6.jpg';
+import pic7 from './assets/ginzake/7.jpg';
 import sea from './assets/interface/sea.png';
 import river from './assets/interface/river.png';
-import title from './assets/interface/title_beni.png';
+import title from './assets/interface/title_gin.png';
 
 
-export default class Benizake extends React.Component {
+export default class Ginzake extends React.Component {
 
   constructor() {
     super()

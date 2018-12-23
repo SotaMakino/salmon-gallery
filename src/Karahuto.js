@@ -4,19 +4,19 @@ import Slider from 'react-rangeslider';
 import './react-rangeslider/lib/index.css';
 import './Fish.css';
 
-import pic1 from './assets/benizake/1.jpg';
-import pic2 from './assets/benizake/2.jpg';
-import pic3 from './assets/benizake/3.jpg';
-import pic4 from './assets/benizake/4.jpg';
-import pic5 from './assets/benizake/5.jpg';
-import pic6 from './assets/benizake/6.jpg';
-import pic7 from './assets/benizake/7.jpg';
+import pic1 from './assets/karahuto/1.jpg';
+import pic2 from './assets/karahuto/2.jpg';
+import pic3 from './assets/karahuto/3.jpg';
+import pic4 from './assets/karahuto/4.jpg';
+import pic5 from './assets/karahuto/5.jpg';
+import pic6 from './assets/karahuto/6.jpg';
+import pic7 from './assets/karahuto/7.jpg';
 import sea from './assets/interface/sea.png';
 import river from './assets/interface/river.png';
-import title from './assets/interface/title_beni.png';
+import title from './assets/interface/title_kara.png';
 
 
-export default class Benizake extends React.Component {
+export default class Karahuto extends React.Component {
 
   constructor() {
     super()
