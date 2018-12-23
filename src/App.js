@@ -14,11 +14,11 @@ export default class App extends React.Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Switch>
-            <Route path="/Sirozake/" component={Sirozake} />
-            <Route path="/Karahuto/" component={Karahuto} />
-            <Route path="/Sakura/" component={Sakura} />
-            <Route path="/Masuno/" component={Masuno} />
-            <Route path="/Ginzake/" component={Ginzake} />
+            <Route path="/Sirozake" component={Sirozake} />
+            <Route path="/Karahuto" component={Karahuto} />
+            <Route path="/Sakura" component={Sakura} />
+            <Route path="/Masuno" component={Masuno} />
+            <Route path="/Ginzake" component={Ginzake} />
             <Route path="/Benizake" component={Benizake} />
             <Route path="*" component={Main} />
           </Switch>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-rangeslider';
+import { Link } from 'react-router-dom';
 
 import './react-rangeslider/lib/index.css';
 import './Fish.css';
@@ -14,6 +15,7 @@ import pic7 from './assets/masuno/7.jpg';
 import sea from './assets/interface/sea.png';
 import river from './assets/interface/river.png';
 import title from './assets/interface/title_masu.png';
+import back from './assets/interface/back.png';
 
 
 export default class Masuno extends React.Component {
@@ -51,6 +53,9 @@ export default class Masuno extends React.Component {
       <div>
         <div>
           <img src={title} alt='aaaaaa' class="title" />
+        </div>
+        <div>
+          <Link to="/"><img src={back} alt='' class="back"/></Link>
         </div>
         <div>
           {image1}

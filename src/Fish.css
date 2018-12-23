@@ -7,6 +7,15 @@
   z-index: 1;
 }
 
+.back {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 7%;
+  height: auto;
+  z-index: 1;
+}
+
 img.fish {
   position: absolute;
   max-width: 80%;
