@@ -7,7 +7,7 @@ import main2 from './assets/main/main2.jpg';
 import main3 from './assets/main/main3.jpg';
 import main4 from './assets/main/main4.jpg';
 import main5 from './assets/main/main5.jpg';
-import main6 from './assets/main/main6.jpg';
+import main6 from './assets/Main/main6.jpg';
 
 import './Main.css';
 
