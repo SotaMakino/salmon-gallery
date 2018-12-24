@@ -1,7 +1,7 @@
 .bar {
   position: absolute;
   bottom: 120px;
-  left: 550px;
+  left: 540px;
   width: 25%;
   z-index: 1;
 }
@@ -16,9 +16,10 @@
 
 img.fish {
   position: absolute;
-  max-width: 80%;
+  width: 95%;
   max-height: 100%;
-  left: 183px;
+  top: -5px;
+  left: 65px;
   z-index: 0;
   user-select: none;
   pointer-events: none;
@@ -26,9 +27,9 @@ img.fish {
 
 img.title {
   position: fixed;
-  left: 15px;
-  top: 15px;
-  width: 20%;
+  left: 5px;
+  top: 5px;
+  width: 25%;
   height: auto;
   z-index: 2;
   user-select: none;
@@ -39,7 +40,7 @@ img.sea{
   position: absolute;
   width: 12%;
   bottom: 66px;
-  left: 400px;
+  left: 390px;
   z-index: 1;
   user-select: none;
   pointer-events: none;
@@ -49,7 +50,7 @@ img.river {
   position: absolute;
   width: 12%;
   bottom: 66px;
-  left: 880px;
+  left: 870px;
   z-index: 1;
   user-select: none;
   pointer-events: none;

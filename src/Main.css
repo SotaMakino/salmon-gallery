@@ -6,7 +6,7 @@
     }
     
     img.fish_link {
-        width: 27%;
+        width: 30%;
     }
     
     ul.menu li {
@@ -16,6 +16,6 @@
 
     .fishes {
         position: absolute;
-        bottom: 70px;
-        left: 180px;
+        top: 147px;
+        left: 85px;
     }
