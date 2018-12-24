@@ -27,7 +27,7 @@ img.fish {
 
 img.title {
   position: fixed;
-  left: 5px;
+  left: -10px;
   top: 0px;
   width: 25%;
   height: auto;
