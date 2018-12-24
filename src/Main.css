@@ -1,0 +1,21 @@
+    img.main_title {
+        width: 25%;
+        position: absolute;
+        top: 80px;
+        left: 530px;
+    }
+    
+    img.fish_link {
+        width: 27%;
+    }
+    
+    ul.menu li {
+        list-style-type:none;
+        display: inline;
+    }
+
+    .fishes {
+        position: absolute;
+        bottom: 70px;
+        left: 180px;
+    }
