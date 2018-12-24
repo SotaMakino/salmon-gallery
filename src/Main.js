@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import title from './assets/main/main_title.png';
-import main1 from './assets/main/main1.jpg';
-import main2 from './assets/main/main2.jpg';
-import main3 from './assets/main/main3.jpg';
-import main4 from './assets/main/main4.jpg';
-import main5 from './assets/main/main5.jpg';
+import title from './assets/Main/main_title.png';
+import main1 from './assets/Main/main1.jpg';
+import main2 from './assets/Main/main2.jpg';
+import main3 from './assets/Main/main3.jpg';
+import main4 from './assets/Main/main4.jpg';
+import main5 from './assets/Main/main5.jpg';
 import main6 from './assets/Main/main6.jpg';
 
 import './Main.css';
