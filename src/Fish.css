@@ -8,7 +8,7 @@
 
 .back {
   position: fixed;
-  top: 18px;
+  top: 21px;
   right: 25px;
   width: 7%;
   z-index: 1;
@@ -28,7 +28,7 @@ img.fish {
 img.title {
   position: fixed;
   left: 5px;
-  top: 5px;
+  top: 0px;
   width: 25%;
   height: auto;
   z-index: 2;
