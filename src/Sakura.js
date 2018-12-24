@@ -23,8 +23,7 @@ export default class Sakura extends React.Component {
   constructor() {
     super()
     this.state = {
-      volume: 0,
-      loading: true
+      volume: 0
     }
   }
  
@@ -52,7 +51,7 @@ export default class Sakura extends React.Component {
     return (
       <div>
         <div>
-          <img src={title} alt='aaaaaa' class="title" />
+          <img src={title} alt='' class="title" />
         </div>
         <div>
           <Link to="/"><img src={back} alt='' class="back"/></Link>
