@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 
 import main1 from './assets/Main/main1.jpg';
 import main2 from './assets/Main/main2.jpg';
@@ -11,6 +12,33 @@ import main6 from './assets/Main/main6.jpg';
 import './Main.css';
 
 export default class Main extends React.Component {
+
+    constructor() {
+        super();
+    
+        this.state = {
+          modalIsOpen: false
+        };
+    
+        this.openModal = this.openModal.bind(this);
+        this.afterOpenModal = this.afterOpenModal.bind(this);
+        this.closeModal = this.closeModal.bind(this);
+      }
+    
+    openModal() {
+    this.setState({modalIsOpen: true});
+    }
+
+    afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    this.subtitle.style.color = 'black';
+    }
+
+    closeModal() {
+    this.setState({modalIsOpen: false});
+    }
+    
+    
     render(){
         return(
             <div>
@@ -26,7 +54,38 @@ export default class Main extends React.Component {
                         <li><Link to="/masuno"><img src={main3} alt="" class="fish_link"/></Link></li>
                     </ul>
                 </div>
+                <div>
+                <button onClick={this.openModal}>Open Modal</button>
+                    <Modal
+                    isOpen={this.state.modalIsOpen}
+                    onAfterOpen={this.afterOpenModal}
+                    onRequestClose={this.closeModal}
+                    style={customStyles}
+                    >
+                    <h2 ref={subtitle => this.subtitle = subtitle}></h2>
+                    <iframe 
+                    src="https://player.vimeo.com/video/308084254?autoplay=1&loop=1" 
+                    width="740" 
+                    height="452" 
+                    frameBorder="0" 
+                    title="sake"
+                    loop="1"
+                    />
+                    {/* <p><a href="https://vimeo.com/308084254">切り身アニメーション</a> from <a href="https://vimeo.com/user93154422">yoga sota</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
+                    </Modal>
+                </div>
             </div>
         )
     }
 }
+
+const customStyles = {
+    content : {
+      top                   : '50%',
+      left                  : '50%',
+      right                 : 'auto',
+      bottom                : 'auto',
+      marginRight           : '-50%',
+      transform             : 'translate(-50%, -50%)'
+    }
+  };
