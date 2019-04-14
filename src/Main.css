@@ -10,9 +10,8 @@
   }
   
   .col img {
-    width: 120%;
-    margin-top: 8px;
-    vertical-align: middle;
+    width: 125%;
+    margin-top: 12px;
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */

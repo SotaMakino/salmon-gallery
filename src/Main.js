@@ -55,7 +55,7 @@ export default class Main extends React.Component {
                     </div>
                 </div>
                 <div>
-                <button onClick={this.openModal}>Open Modal</button>
+                <button type="button" class="btn btn-outline-info btn-lg" onClick={this.openModal}>Video</button>
                     <Modal
                     isOpen={this.state.modalIsOpen}
                     onAfterOpen={this.afterOpenModal}
