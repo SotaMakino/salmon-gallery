@@ -42,17 +42,17 @@ export default class Main extends React.Component {
     render(){
         return(
             <div>
-                <div class="fishes">
-                    <ul class="menu">
-                        <li><Link to="/sirozake"><img src={main4} alt="" class="fish_link"/></Link></li>
-                        <li><Link to="/benizake"><img src={main2} alt="" class="fish_link"/></Link></li>
-                        <li><Link to="/ginzake"><img src={main6} alt="" class="fish_link"/></Link></li>
-                    </ul>
-                    <ul class="menu">
-                        <li><Link to="/sakura"><img src={main1} alt="" class="fish_link"/></Link></li>
-                        <li><Link to="/karahuto"><img src={main5} alt="" class="fish_link"/></Link></li>
-                        <li><Link to="/masuno"><img src={main3} alt="" class="fish_link"/></Link></li>
-                    </ul>
+                <div>
+                    <div class="row">
+                        <div class="col"><Link to="/sirozake"><img src={main4} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/benizake"><img src={main2} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/ginzake"><img src={main6} alt="" class="fish_link"/></Link></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><Link to="/sakura"><img src={main1} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/karahuto"><img src={main5} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/masuno"><img src={main3} alt="" class="fish_link"/></Link></div>
+                    </div>
                 </div>
                 <div>
                 <button onClick={this.openModal}>Open Modal</button>

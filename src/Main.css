@@ -1,24 +1,32 @@
-    img.main_title {
-        width: 25%;
-        position: absolute;
-        top: 80px;
-        left: 530px;
-    }
-    
-    img.fish_link {
-        width: 30%;
-    }
-    
-    ul.menu li {
-        list-style-type:none;
-        display: inline;
-    }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .col {
+    flex: 40%;
+    max-width: 30%;
+  }
+  
+  .col img {
+    width: 120%;
+    margin-top: 8px;
+    vertical-align: middle;
+  }
 
-    .fishes {
-        position: absolute;
-        top: 147px;
-        left: 85px;
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .col {
+      flex: 80%;
+      max-width: 80%;
     }
-
-    .video{
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col {
+      flex: 75%;
+      max-width: 75%;
     }
+  }
