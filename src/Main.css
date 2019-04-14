@@ -11,7 +11,11 @@
   
   .col img {
     width: 125%;
-    margin-top: 12px;
+  }
+
+  .video-btn button {
+      margin-top: 7px;
+      margin-left: 7px;
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */

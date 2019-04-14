@@ -42,19 +42,7 @@ export default class Main extends React.Component {
     render(){
         return(
             <div>
-                <div>
-                    <div class="row">
-                        <div class="col"><Link to="/sirozake"><img src={main4} alt="" class="fish_link"/></Link></div>
-                        <div class="col"><Link to="/benizake"><img src={main2} alt="" class="fish_link"/></Link></div>
-                        <div class="col"><Link to="/ginzake"><img src={main6} alt="" class="fish_link"/></Link></div>
-                    </div>
-                    <div class="row">
-                        <div class="col"><Link to="/sakura"><img src={main1} alt="" class="fish_link"/></Link></div>
-                        <div class="col"><Link to="/karahuto"><img src={main5} alt="" class="fish_link"/></Link></div>
-                        <div class="col"><Link to="/masuno"><img src={main3} alt="" class="fish_link"/></Link></div>
-                    </div>
-                </div>
-                <div>
+                <div class="video-btn">
                 <button type="button" class="btn btn-outline-info btn-lg" onClick={this.openModal}>Video</button>
                     <Modal
                     isOpen={this.state.modalIsOpen}
@@ -73,6 +61,18 @@ export default class Main extends React.Component {
                     />
                     {/* <p><a href="https://vimeo.com/308084254">切り身アニメーション</a> from <a href="https://vimeo.com/user93154422">yoga sota</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
                     </Modal>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col"><Link to="/sirozake"><img src={main4} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/benizake"><img src={main2} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/ginzake"><img src={main6} alt="" class="fish_link"/></Link></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><Link to="/sakura"><img src={main1} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/karahuto"><img src={main5} alt="" class="fish_link"/></Link></div>
+                        <div class="col"><Link to="/masuno"><img src={main3} alt="" class="fish_link"/></Link></div>
+                    </div>
                 </div>
             </div>
         )
