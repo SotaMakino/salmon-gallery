@@ -49,6 +49,7 @@ img.fish {
 }
 
 .bar {
+  z-index: 2;
   margin-top: -14%;
   margin-bottom: 1%;
   margin-left: 30%;

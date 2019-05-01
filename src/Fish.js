@@ -7,7 +7,6 @@ import './Fish.css';
 
 import sea from './assets/interface/sea.png';
 import river from './assets/interface/river.png';
-import title from './assets/interface/title_beni.png';
 import back from './assets/interface/back.png';
 
 
@@ -41,7 +40,7 @@ export default class Fish extends React.Component {
     return (
       <div>
         <div>
-          <img src={title} alt='' class="title" />
+          <img src={this.props.titlePic} alt='' class="title" />
         </div>
         <div>
           <Link to="/"><img src={back} alt='' class="back"/></Link>
