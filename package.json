@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{jsx,js,css,json}\"",
     "format:check": "prettier --list-different \"src/**/*.{jsx,js,css,json}\"",
-    "lint": "eslint \"**/*.{js,jsx}\""
+    "lint": "eslint \"**/*.jsx\""
   },
   "eslintConfig": {
     "extends": "react-app"

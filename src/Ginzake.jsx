@@ -12,8 +12,8 @@ import title from "./assets/interface/title_gin.png";
 
 const ginImages = [pic1, pic2, pic3, pic4, pic5, pic6, pic7];
 
-function renderFishImages() {
+const renderFishImages = () => {
   return <Fish images={ginImages} titlePic={title} />;
-}
+};
 
 export default renderFishImages;

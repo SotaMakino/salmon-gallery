@@ -12,8 +12,8 @@ import title from "./assets/interface/title_beni.png";
 
 const beniImages = [pic1, pic2, pic3, pic4, pic5, pic6, pic7];
 
-function renderFishImages() {
+const renderFishImages = () => {
   return <Fish images={beniImages} titlePic={title} />;
-}
+};
 
 export default renderFishImages;
