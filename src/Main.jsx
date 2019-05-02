@@ -54,7 +54,6 @@ export default class Main extends React.Component {
             onRequestClose={this.closeModal}
             style={customStyles}
           >
-            <h2 ref={subtitle => (this.subtitle = subtitle)} />
             <iframe
               src="https://player.vimeo.com/video/308084254?autoplay=1&loop=1"
               width="740"

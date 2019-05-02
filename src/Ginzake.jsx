@@ -1,5 +1,5 @@
 import React from "react";
-import Fish from "./Fish";
+import Fish from "./Fish.jsx";
 
 import pic1 from "./assets/ginzake/1.jpg";
 import pic2 from "./assets/ginzake/2.jpg";
