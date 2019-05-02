@@ -1,12 +1,12 @@
-import  React from 'react';
-import { Switch, HashRouter as Router, Route } from 'react-router-dom';
-import Benizake from './Benizake';
-import Sirozake from './Sirozake';
-import Karahuto from './Karahuto';
-import Sakura from './Sakura';
-import Masuno from './Masuno';
-import Ginzake from './Ginzake';
-import Main from './Main';
+import React from "react";
+import { Switch, HashRouter as Router, Route } from "react-router-dom";
+import Benizake from "./Benizake";
+import Sirozake from "./Sirozake";
+import Karahuto from "./Karahuto";
+import Sakura from "./Sakura";
+import Masuno from "./Masuno";
+import Ginzake from "./Ginzake";
+import Main from "./Main";
 
 export default class App extends React.Component {
   render() {
@@ -24,6 +24,6 @@ export default class App extends React.Component {
           </Switch>
         </div>
       </Router>
-    )
+    );
   }
 }

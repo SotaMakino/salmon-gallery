@@ -1,35 +1,35 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .col {
-    flex: 40%;
-    max-width: 30%;
-  }
-  
-  .col img {
-    width: 125%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .video-btn button {
-      margin-top: 7px;
-      margin-left: 7px;
-  }
+/* Create four equal columns that sits next to each other */
+.col {
+  flex: 40%;
+  max-width: 30%;
+}
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
+.col img {
+  width: 125%;
+}
+
+.video-btn button {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-    .col {
-      flex: 80%;
-      max-width: 80%;
-    }
+  .col {
+    flex: 80%;
+    max-width: 80%;
   }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col {
-      flex: 75%;
-      max-width: 75%;
-    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 75%;
+    max-width: 75%;
   }
+}
