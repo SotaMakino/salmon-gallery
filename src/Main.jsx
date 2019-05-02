@@ -40,10 +40,10 @@ export default class Main extends React.Component {
   render() {
     return (
       <div>
-        <div class="video-btn">
+        <div className="video-btn">
           <button
             type="button"
-            class="btn btn-outline-info btn-lg"
+            className="btn btn-outline-info btn-lg"
             onClick={this.openModal}
           >
             Video
@@ -67,37 +67,37 @@ export default class Main extends React.Component {
           </Modal>
         </div>
         <div>
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
               <Link to="/sirozake">
-                <img src={main4} alt="" class="fish_link" />
+                <img src={main4} alt="" className="fish_link" />
               </Link>
             </div>
-            <div class="col">
+            <div className="col">
               <Link to="/benizake">
-                <img src={main2} alt="" class="fish_link" />
+                <img src={main2} alt="" className="fish_link" />
               </Link>
             </div>
-            <div class="col">
+            <div className="col">
               <Link to="/ginzake">
-                <img src={main6} alt="" class="fish_link" />
+                <img src={main6} alt="" className="fish_link" />
               </Link>
             </div>
           </div>
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
               <Link to="/sakura">
-                <img src={main1} alt="" class="fish_link" />
+                <img src={main1} alt="" className="fish_link" />
               </Link>
             </div>
-            <div class="col">
+            <div className="col">
               <Link to="/karahuto">
-                <img src={main5} alt="" class="fish_link" />
+                <img src={main5} alt="" className="fish_link" />
               </Link>
             </div>
-            <div class="col">
+            <div className="col">
               <Link to="/masuno">
-                <img src={main3} alt="" class="fish_link" />
+                <img src={main3} alt="" className="fish_link" />
               </Link>
             </div>
           </div>
