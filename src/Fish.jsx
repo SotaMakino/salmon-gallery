@@ -30,43 +30,43 @@ export default class Fish extends React.Component {
       this.state.volume >= 0 && this.state.volume < 10 ? (
         <img src={this.props.images[0]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[0]} alt="" className="hidden" />
       );
     const image2 =
       this.state.volume >= 10 && this.state.volume < 20 ? (
         <img src={this.props.images[1]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[1]} alt="" className="hidden" />
       );
     const image3 =
       this.state.volume >= 20 && this.state.volume < 30 ? (
         <img src={this.props.images[2]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[2]} alt="" className="hidden" />
       );
     const image4 =
       this.state.volume >= 30 && this.state.volume < 40 ? (
         <img src={this.props.images[3]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[3]} alt="" className="hidden" />
       );
     const image5 =
       this.state.volume >= 40 && this.state.volume < 50 ? (
         <img src={this.props.images[4]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[4]} alt="" className="hidden" />
       );
     const image6 =
       this.state.volume >= 50 && this.state.volume < 60 ? (
         <img src={this.props.images[5]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[5]} alt="" className="hidden" />
       );
     const image7 =
       this.state.volume >= 60 && this.state.volume <= 70 ? (
         <img src={this.props.images[6]} alt="" className="fish" />
       ) : (
-        ""
+        <img src={this.props.images[6]} alt="" className="hidden" />
       );
 
     return (

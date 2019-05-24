@@ -55,3 +55,7 @@ img.fish {
   margin-left: 30%;
   margin-right: 30%;
 }
+
+.hidden {
+  display: none;
+}
