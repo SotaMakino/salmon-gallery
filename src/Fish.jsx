@@ -70,7 +70,7 @@ export default class Fish extends React.Component {
       );
 
     return (
-      <div>
+      <div className="fish-detail">
         <div>
           <img src={this.props.titlePic} alt="" className="title" />
         </div>

@@ -1,3 +1,7 @@
+.fish-detail {
+  overflow: hidden;
+}
+
 .title {
   position: fixed;
   left: -10px;
@@ -49,9 +53,8 @@ img.fish {
 }
 
 .bar {
-  z-index: 2;
+  z-index: 0;
   margin-top: -14%;
-  margin-bottom: 1%;
   margin-left: 30%;
   margin-right: 30%;
 }
