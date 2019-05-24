@@ -2,7 +2,22 @@
 
 salmon-gallery is the gallery that interactively enjoy the growth of various beautiful salmon.
 
-![interface](https://github.com/SotaMakino/salmon-gallery/src/assets/interface.png)
+## Installation
+
+Quick Start
+```bash
+git clone git@github.com:SotaMakino/salmon-gallery.git
+npm install
+npm start
+```
+
+Run Prettier and ESLint
+```bash
+npm run format
+npm run lint
+```
+
+![interface](https://github.com/SotaMakino/salmon-gallery/blob/master/src/assets/interface.png)
 
 ---
 
