@@ -2,7 +2,7 @@
 
 salmon-gallery is the gallery that interactively enjoy the growth of various beautiful salmon.
 
-![interface](https://github.com/SotaMakino/salmon-gallery/assets/interface.png)
+![interface](https://github.com/SotaMakino/salmon-gallery/src/assets/interface.png)
 
 ---
 
