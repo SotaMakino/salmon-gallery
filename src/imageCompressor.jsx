@@ -15,6 +15,7 @@ compress_images(
   { svg: { engine: "svgo", command: "--multipass" } },
   { gif: { engine: "gifsicle", command: ["--colors", "64", "--use-col=web"] } },
   function(error, completed, statistic) {
+    /* eslint-disable */
     console.log("-------------");
     console.log(error);
     console.log(completed);
