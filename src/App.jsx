@@ -1,12 +1,49 @@
 import React from "react";
 import { Switch, HashRouter as Router, Route } from "react-router-dom";
-import Benizake from "./Benizake.jsx";
-import Sirozake from "./Sirozake.jsx";
-import Karahuto from "./Karahuto.jsx";
-import Sakura from "./Sakura.jsx";
-import Masuno from "./Masuno.jsx";
-import Ginzake from "./Ginzake.jsx";
 import Main from "./Main.jsx";
+import Loadable from "react-loadable";
+
+const LoadableSirozake = Loadable({
+  loader: () => import("./Sirozake.jsx"),
+  loading() {
+    return <h1>loading split out code...</h1>;
+  }
+});
+
+const LoadableKarahuto = Loadable({
+  loader: () => import("./Karahuto.jsx"),
+  loading() {
+    return <h1>loading split out code...</h1>;
+  }
+});
+
+const LoadableSakura = Loadable({
+  loader: () => import("./Sakura.jsx"),
+  loading() {
+    return <h1>loading split out code...</h1>;
+  }
+});
+
+const LoadableMasuno = Loadable({
+  loader: () => import("./Masuno.jsx"),
+  loading() {
+    return <h1>loading split out code...</h1>;
+  }
+});
+
+const LoadableGinzake = Loadable({
+  loader: () => import("./Ginzake.jsx"),
+  loading() {
+    return <h1>loading split out code...</h1>;
+  }
+});
+
+const LoadableBenizake = Loadable({
+  loader: () => import("./Benizake.jsx"),
+  loading() {
+    return <h1>loading split out code...</h1>;
+  }
+});
 
 export default class App extends React.Component {
   render() {
@@ -14,12 +51,12 @@ export default class App extends React.Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Switch>
-            <Route path="/Sirozake" component={Sirozake} />
-            <Route path="/Karahuto" component={Karahuto} />
-            <Route path="/Sakura" component={Sakura} />
-            <Route path="/Masuno" component={Masuno} />
-            <Route path="/Ginzake" component={Ginzake} />
-            <Route path="/Benizake" component={Benizake} />
+            <Route path="/Sirozake" component={LoadableSirozake} />
+            <Route path="/Karahuto" component={LoadableKarahuto} />
+            <Route path="/Sakura" component={LoadableSakura} />
+            <Route path="/Masuno" component={LoadableMasuno} />
+            <Route path="/Ginzake" component={LoadableGinzake} />
+            <Route path="/Benizake" component={LoadableBenizake} />
             <Route path="*" component={Main} />
           </Switch>
         </div>
